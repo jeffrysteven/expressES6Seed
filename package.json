@@ -1,0 +1,9 @@
+{
+  "name": "expresses6seed",
+  "version": "1.0.0",
+  "description": "express project with default configuration and es6",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Jeffry Steven Lenis Jimenez",
+  "license": "ISC"
+}
