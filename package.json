@@ -3,7 +3,27 @@
   "version": "1.0.0",
   "description": "express project with default configuration and es6",
   "main": "index.js",
-  "scripts": {},
-  "author": "Jeffry Steven Lenis Jimenez",
-  "license": "ISC"
+  "scripts": {
+    "start": "node ./app/index.js"
+  },
+  "author": "Jeffry Steven Lenis Jimenez <jeff@starkbaas.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-plugin-transform-flow-strip-types": "^6.7.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.29",
+    "gulp-shell": "^0.5.2",
+    "gulp-watch": "^4.3.5",
+    "rimraf": "^2.5.2",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0"
+  }
 }
